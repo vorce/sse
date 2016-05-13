@@ -15,7 +15,7 @@ TL;DR is that it's a simple technology for streaming data/events to a client ove
 - `retry: <milliseconds>`: can be used to configure the client's reconnection time(?)
 - `id: <id>`: before a `data:` line associates the data with the id, clients may keep track of that id and in case of a reconnection can add a header `Last-Event-ID` which then could be used by the server to re-send everything that was missed.
 - `event: <name>`: can be used to associate the next `data:` line with a category/type of event.
-- To make sure the connection is not closed by for example proxies, firewalls etc I could send heartbeats.
+- To make sure the connection is not closed by for example proxies, firewalls etc I could send heartbeats. (For example just a line starting with `:`, since those should be ignored by the client)
 
 ## Running
 
