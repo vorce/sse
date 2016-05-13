@@ -1,12 +1,12 @@
 # Sse
 
-A simple demo of using [Server-sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events) using [Cowboy](https://github.com/ninenines/cowboy) and [Plug](https://github.com/elixir-lang/plug) in [Elixir](http://elixir-lang.org/).
+A simple demo of [Server-sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events) using [Cowboy](https://github.com/ninenines/cowboy) and [Plug](https://github.com/elixir-lang/plug) in [Elixir](http://elixir-lang.org/).
 
 Just a learning thing.
 
 ## Server sent events
 
-TL;DR is that it's a simple technology for streaming data/events over a client over a long running HTTP connection.
+TL;DR is that it's a simple technology for streaming data/events to a client over a long running HTTP connection.
 
 ## Running
 
